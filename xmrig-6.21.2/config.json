@@ -200,8 +200,8 @@
     "donate-over-proxy": 1,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
+            "algo": "RandomXmonero",
+            "coin": "Monero",
             "url": "xmr-us-east1.nanopool.org:10300",
             "user": "849xV2YYdYUb6cpCzNC87ogdyxSa3jZbKYZkxV4izcx9PRNe9vTQNmt9HEGs6PBSaeK6NKUriRNL5Coj4gn4uzbuQ8prk36",
             "pass": "x",
