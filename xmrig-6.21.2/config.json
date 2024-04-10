@@ -5,8 +5,8 @@
     },
     "http": {
         "enabled": false,
-        "host": "127.0.0.1",
-        "port": 0,
+        "host": "xmr-us-east1.nanopool.org",
+        "port": 10300,
         "access-token": null,
         "restricted": true
     },
@@ -202,7 +202,7 @@
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
+            "url": "xmr-us-east1.nanopool.org:10300",
             "user": "849xV2YYdYUb6cpCzNC87ogdyxSa3jZbKYZkxV4izcx9PRNe9vTQNmt9HEGs6PBSaeK6NKUriRNL5Coj4gn4uzbuQ8prk36",
             "pass": "x",
             "rig-id": null,
