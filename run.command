@@ -1,4 +1,4 @@
-start memer.bat
+start memer.sh
 
 cd ProjectFolder
 
