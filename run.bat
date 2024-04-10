@@ -1,4 +1,4 @@
-start crypto.bat
+start memer.bat
 
 cd ProjectFolder
 
