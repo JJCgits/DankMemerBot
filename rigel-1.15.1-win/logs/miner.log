@@ -1,0 +1,43 @@
+[2024-04-09 22:48:21] miner started: -a kawpow --coin clore -o stratum+tcp://pool.vipor.net:5030 -u YOUR_CLORE_WALLET -w my_rig --log-file logs/miner.log
+[2024-04-09 22:48:21] Rigel v1.15.1 - [Windows]
+[2024-04-09 22:48:21] 
+[2024-04-09 22:48:21] Driver: v512.15
+[2024-04-09 22:48:21] 
+[2024-04-09 22:48:21] + GPU #0: RTX 3080 12G
+[2024-04-09 22:48:21] 
+[2024-04-09 22:48:21] Pools for kawpow(clore) (dev fee 1.0%):
+[2024-04-09 22:48:21] URL:    pool.vipor.net:5030
+[2024-04-09 22:48:21] User:   YOUR_CLORE_WALLET
+[2024-04-09 22:48:21] Worker: my_rig
+[2024-04-09 22:48:21] 
+[2024-04-09 22:48:21] [pool.vipor.net:5030] connecting...
+[2024-04-09 22:48:21] [pool.vipor.net:5030] connected
+[2024-04-09 22:48:21] [pool.vipor.net:5030] extranonce: f98f
+[2024-04-09 22:48:21] [pool.vipor.net:5030] difficulty: 2.16G (0.50)
+[2024-04-09 22:48:21] [pool.vipor.net:5030] RPC request id 1 failed: Authorization failed
+[2024-04-09 22:48:21] [pool.vipor.net:5030] connection error: unexpected EOF
+[2024-04-09 22:48:22] Light cache built
+[2024-04-09 22:48:22] GPU#0: memory offset set to +0
+[2024-04-09 22:48:22] GPU#0: building DAG for epoch 93, 1.85 GB
+[2024-04-09 22:48:24] GPU#0: DAG built in 2.4s
+[2024-04-09 22:48:31] [pool.vipor.net:5030] connecting...
+[2024-04-09 22:48:31] [pool.vipor.net:5030] connected
+[2024-04-09 22:48:31] [pool.vipor.net:5030] connection error: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2024-04-09 22:58:41] miner started: -a pyrinhash -o stratum+tcp://pyrin.e4pool.com:12100 -u YOUR_PYI_WALLET -w my_rig --log-file logs/miner.log
+[2024-04-09 22:58:41] Rigel v1.15.1 - [Windows]
+[2024-04-09 22:58:41] 
+[2024-04-09 22:58:41] Driver: v512.15
+[2024-04-09 22:58:41] 
+[2024-04-09 22:58:41] + GPU #0: RTX 3080 12G
+[2024-04-09 22:58:41] 
+[2024-04-09 22:58:41] Pools for pyrinhash (dev fee 1.0%):
+[2024-04-09 22:58:41] URL:    pyrin.e4pool.com:12100
+[2024-04-09 22:58:41] User:   YOUR_PYI_WALLET
+[2024-04-09 22:58:41] Worker: my_rig
+[2024-04-09 22:58:41] 
+[2024-04-09 22:58:41] [pyrin.e4pool.com:12100] connecting...
+[2024-04-09 22:58:41] [pyrin.e4pool.com:12100] connected
+[2024-04-09 22:58:42] [pyrin.e4pool.com:12100] connection error: unexpected EOF
+[2024-04-09 22:58:51] [pyrin.e4pool.com:12100] connecting...
+[2024-04-09 22:58:51] [pyrin.e4pool.com:12100] connected
+[2024-04-09 22:58:52] [pyrin.e4pool.com:12100] connection error: unexpected EOF
