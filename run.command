@@ -1,7 +1,5 @@
-bash memer.sh
+open memer.command
 
 cd ProjectFolder
 
-python dankMemer.py
-
-pause
+python3 dankMemer.py
