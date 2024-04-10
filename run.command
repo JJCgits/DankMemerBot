@@ -1,4 +1,4 @@
-start memer.sh
+bash memer.sh
 
 cd ProjectFolder
 
