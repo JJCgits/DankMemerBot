@@ -1,3 +1,12 @@
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+install("undetected_chromedriver")
+install("selenium")
+install("seleniumBase")
 import undetected_chromedriver as uc
 
 from selenium.webdriver.common.by import By
@@ -8,6 +17,8 @@ import os
 #The setup
 from seleniumbase import Driver
 import time
+
+
 
 driver = Driver(uc=True, headless=True)
 
