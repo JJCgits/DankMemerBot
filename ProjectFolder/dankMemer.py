@@ -47,10 +47,17 @@ driver.get(website)
 loginUsername = input("Whats your username or email \n")
 loginPassword = input("What's your password to log in to Discord? \n")
 
+
+
 def main():
+    counterN = 0
     startUp()
     crypto()
     while True:
+        if(counterN > 50):
+            time.sleep(600)
+        
+        counterN += 1
         dankMeme()
         
     
@@ -85,6 +92,7 @@ def crypto():
     time.sleep(2)
 def dankMeme():
     message = driver.find_element(By.XPATH, messageX)
+    
     for command in commands:
         for letter in command:
             message.send_keys(letter)
