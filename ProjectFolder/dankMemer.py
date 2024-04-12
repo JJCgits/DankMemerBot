@@ -7,6 +7,8 @@ def install(package):
 install("undetected_chromedriver")
 install("selenium")
 install("seleniumBase")
+
+
 import undetected_chromedriver as uc
 
 from selenium.webdriver.common.by import By
@@ -86,7 +88,7 @@ def dankMeme():
     for command in commands:
         for letter in command:
             message.send_keys(letter)
-            time.sleep(0.1)
+            time.sleep(0.5)
 
         message.send_keys(Keys.ENTER)
         message.send_keys(Keys.ENTER)
