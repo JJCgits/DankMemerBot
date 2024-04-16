@@ -52,6 +52,7 @@ loginPassword = input("What's your password to log in to Discord? \n")
 def main():
     counterN = 0
     startUp()
+    crypto()
     while True:
         if(counterN > 50):
             time.sleep(600)
@@ -73,7 +74,7 @@ def startUp():
     loginButton.click()
 
     time.sleep(3)
-    print("Your login has been completed :)\n")
+    print("Your login has been completed :) Aashy Washy \n")
 
     searchBarButton = driver.find_element(By.XPATH, searchBarButtonX)
     searchBarButton.click()
