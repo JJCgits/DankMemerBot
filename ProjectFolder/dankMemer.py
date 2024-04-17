@@ -54,7 +54,7 @@ def main():
     startUp()
     crypto()
     while True:
-        if(counterN > 50):
+        if(counterN > 45):
             time.sleep(600)
         
         counterN += 1
