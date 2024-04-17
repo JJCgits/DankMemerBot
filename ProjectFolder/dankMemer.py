@@ -80,7 +80,7 @@ def startUp():
     searchBarButton.click()
 
     searchBar = driver.find_element(By.XPATH, searchBarX)
-    for letter in "Dankmemer text":
+    for letter in "Dankmemer ":
         searchBar.send_keys(letter)
         time.sleep(0.1)
 
